@@ -22,5 +22,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
+      - run: sleep 30
       - id: deployment
         uses: actions/deploy-pages@v4
